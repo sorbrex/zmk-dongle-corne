@@ -435,12 +435,13 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
     RGUI: $$mdi:apple-keyboard-command$$
-    LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
+    # combo
+    LS(LC(LALT)): $$mdi:triangle$$ # Meh
     RC(RS(TAB)): "⌃⇧⇥"
     RC(TAB): "⌃⇥"
     LG(LS(J)): "⌘⇧J"
-    LG(LSHIFT): "⌘⇧"
+    LG(LSHFT): "⌘⇧"
     LG(LA(SPACE)): "⌘⌥⎵"
     LOWER: "⤓"
     RAISE: "⤒"
