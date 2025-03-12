@@ -39,7 +39,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+$$mdi:apple-keyboard-shift$$
+  - ⌘⇧
   - $$mdi:apple-keyboard-command$$
   - {t: lower, type: held}
   - $$mdi:keyboard-space$$
