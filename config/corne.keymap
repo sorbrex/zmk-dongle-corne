@@ -25,10 +25,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp LC(LS(TAB))  &kp N7  &kp N8    &kp N9     &kp LC(TAB)    &kp LG(LS(J))      &none         &none     &none      &none  &kp DELETE
-&kp LCTRL  &none            &kp N4  &kp N5    &kp N6     &none          &kp LEFT           &kp DOWN      &kp UP    &kp RIGHT  &none  &kp RET
-&kp LSHFT  &none            &kp N1  &kp N2    &kp N3     &kp N0         &kp C_VOL_DN       &kp C_VOL_UP  &none     &none      &none  &kp LG(LSHFT)
-                                    &kp LGUI  &mo LOWER  &kp SPACE      &kp LG(LA(SPACE))  &mo RAISE     &kp RALT
+&kp ESC    &none  &kp N7  &kp N8    &kp N9     &none        &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)  &none      &none  &kp DELETE
+&kp LCTRL  &none  &kp N4  &kp N5    &kp N6     &none        &kp LEFT           &kp DOWN         &kp UP       &kp RIGHT  &none  &kp RET
+&kp LSHFT  &none  &kp N1  &kp N2    &kp N3     &kp N0       &kp C_VOL_DN       &kp C_VOL_UP     &none        &none      &none  &kp LG(LSHFT)
+                          &kp LGUI  &mo LOWER  &kp SPACE    &kp LG(LA(SPACE))  &mo RAISE        &kp RALT
             >;
         };
 
@@ -38,6 +38,15 @@
 &kp LCTRL  &none     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp SQT        &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp BACKSLASH  &kp RET
 &kp LSHFT  &none     &none           &none                 &none             &none          &kp UNDER          &none              &none                  &none            &none          &kp RSHFT
                                      &kp LGUI              &mo LOWER         &kp SPACE      &kp SPACE          &mo RAISE          &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
